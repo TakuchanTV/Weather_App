@@ -1,0 +1,105 @@
+/* #container {
+    width: 40%;
+    height: auto;
+    background-color: #dcdcdc;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    gap: 20px;
+} */
+
+body {
+    margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    background: linear-gradient(180deg, #87CEFA, #ffffff);
+    color: #333;
+}
+
+.app {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.current-weather {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+    width: 120px;
+}
+
+.temp {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.location {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.subtitle {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.day {
+    background: rgba(255, 255, 255, 0.6);
+    width: 22%;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.day img {
+    width: 40px;
+}
+
+#searchdiv {
+    width: 30%;
+    position: relative;
+    bottom: 50px;
+    left: 470px;
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    /* background-color: aquamarine; */
+    /* width: 30%;
+    position: relative;
+    bottom: 76px;
+    left: 400px; */
+}
+
+#searchbtn {
+    white-space: nowrap;
+    margin-left: 3px;
+    border-radius: 5px;
+    ;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天気予報アプリ</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <h1 class="title">今日の天気</h1>
+        <div id="searchdiv">
+            <input id="search" type="text" placeholder="検索"/>
+            <button id="searchbtn" type="submit">送信</button>
+        </div>
+        <div class="current-weather">
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" class="weather-icon">
+            <div class="temp">24°C</div>
+            <div class="desc">晴れ</div>
+            <div class="location">東京都 立川市</div>
+        </div>
+
+        <h2 class="subtitle">週間予報</h2>
+
+        <div class="forecast">
+            <div class="day">
+                <span>火</span>
+                <img src="https://openweathermap.org/img/wn/02d.png">
+                <span>22°C</span>
+            </div>
+            <div class="day">
+                <span>水</span>
+                <img src="https://openweathermap.org/img/wn/10d.png">
+                <span>19°C</span>
+            </div>
+            <div class="day">
+                <span>木</span>
+                <img src="https://openweathermap.org/img/wn/01d.png">
+                <span>25°C</span>
+            </div>
+            <div class="day">
+                <span>金</span>
+                <img src="https://openweathermap.org/img/wn/03d.png">
+                <span>21°C</span>
+            </div>
+            <div class="day">
+                <span>土</span>
+                <img src="https://openweathermap.org/img/wn/03d.png">
+                <span>21°C</span>
+            </div>
+            <div class="day">
+                <span>日</span>
+                <img src="https://openweathermap.org/img/wn/03d.png">
+                <span>21°C</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
